@@ -1,0 +1,20 @@
+:root {
+  --spacing-sm: 6px;
+  --spacing-md: 12px;
+  --spacing-lg: 24px;
+
+  --color-text: #444;
+  --color-link: #0066cc;
+  --color-hover: #004080;
+  --color-success: #3f8743;
+  --color-warning: #eeac34;
+  --color-error: #c7232d;
+  --color-background: #f1f0f0;
+
+  --font-size-h1-desktop: 20px;
+  --font-size-h1-mobile: 18px;
+  --font-size-h2-desktop: 18px;
+  --font-size-h2-mobile: 16px;
+  --font-size-body: 16px;
+  --font-size-icon: 16px;
+}

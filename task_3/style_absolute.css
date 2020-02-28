@@ -1,0 +1,58 @@
+/* A quick reset... */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+header,
+nav,
+main,
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3em;
+}
+
+header {
+  top: 0;
+}
+
+nav {
+  top: 3em;
+}
+
+main {
+  top: 6em;
+  height: 100px;
+}
+
+footer {
+  top: calc(6em + 100px);
+}
+
+@media (min-width: 641px) {
+  nav,
+  main {
+    top: 3em;
+    height: 100px;
+  }
+
+  nav {
+    width: 300px;
+  }
+
+  main {
+    left: 300px;
+    right: 0;
+  }
+
+  footer {
+    top: calc(3em + 100px);
+  }
+}

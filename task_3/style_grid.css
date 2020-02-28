@@ -1,0 +1,22 @@
+main {
+  height: 100px;
+}
+
+@media (min-width: 641px) {
+  body {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: repeat(3, auto);
+  }
+
+  header,
+  footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  nav,
+  main {
+    height: 100px;
+  }
+}

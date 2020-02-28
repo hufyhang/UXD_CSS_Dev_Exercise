@@ -1,0 +1,43 @@
+/* A quick reset... */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* A quick clearfix for body */
+body::after {
+  display: block;
+  clear: both;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+  content: "";
+}
+
+main {
+  height: 100px;
+}
+
+header,
+nav,
+main,
+footer {
+  float: left;
+  width: 100vw;
+}
+
+@media (min-width: 641px) {
+  nav,
+  main {
+    height: 100px;
+  }
+
+  nav {
+    width: 300px;
+  }
+
+  main {
+    width: calc(100vw - 300px);
+  }
+}

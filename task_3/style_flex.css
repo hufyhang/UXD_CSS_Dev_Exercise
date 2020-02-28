@@ -1,0 +1,28 @@
+main {
+  height: 100px;
+}
+
+@media (min-width: 641px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header,
+  footer {
+    width: 100vw;
+  }
+
+  nav {
+    width: 300px;
+  }
+
+  main {
+    flex: 1 1;
+  }
+
+  nav,
+  main {
+    height: 100px;
+  }
+}

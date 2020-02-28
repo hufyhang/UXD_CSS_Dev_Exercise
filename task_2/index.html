@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task 2</title>
+
+  <!-- Import CSS reset for a better compatibility -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <!-- Import Font Awesome 5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="./variables.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+
+    <div class="container">
+      <div class="title-bar">
+        <h1>Inventory</h1>
+        <a href="#">See details</a>
+      </div>
+
+      <div class="sub-title">
+        <h2>Sub-title</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur excepturi a hic at enim tempora, pariatur debitis, qui exercitationem aliquid sunt magnam quam ea temporibus nemo deleniti doloribus accusamus praesentium?
+        </p>
+      </div>
+
+      <ul class="item-list">
+        <li>
+          <span class="item-name">1 Cluster</span>
+          <span class="item-status">
+            <i class="fas fa-check-circle success" aria-hidden="true"></i>Healthy
+          </span>
+        </li>
+        <li>
+          <span class="item-name">4 Nodes</span>
+          <span class="item-status">
+            <i class="fas fa-check-circle success" aria-hidden="true"></i>Healthy
+          </span>
+        </li>
+        <li>
+          <span class="item-name">370 Pods</span>
+          <span class="item-status">
+            <i class="fas fa-exclamation-triangle warning" aria-hidden="true"></i>
+            <a href="#">2 Warnings</a>
+          </span>
+        </li>
+        <li>
+          <span class="item-name">9 Virtual Machines</span>
+          <span class="item-status">
+            <i class="fas fa-exclamation-circle error" aria-hidden="true"></i>
+            <a href="#">2 Errors</a>
+          </span>
+        </li>
+      </ul>
+    </div>
+
+  </main>
+</body>
+</html>
